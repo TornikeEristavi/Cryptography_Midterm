@@ -1,0 +1,4 @@
+When even a single letter in the file changes, the HMAC output becomes completely different.
+This happens because HMAC uses both the message and a secret key to create a unique code.
+It ensures data integrity by detecting any tampering and authenticity by confirming the message came from someone who knows the secret key.
+So, HMAC protects against unauthorized changes and forgery.
